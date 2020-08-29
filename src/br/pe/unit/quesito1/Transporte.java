@@ -55,6 +55,10 @@ public class Transporte {
 		this.potencia = potencia;
 	}
 
+	/**
+	 * 
+	 * @return a potência do motor X carga máxima (kg) X 100
+	 */
 	public Double consumo() {
 		return  this.getPotencia() * this.getCarga_maxima() * 100;
 	}

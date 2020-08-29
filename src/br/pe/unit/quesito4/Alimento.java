@@ -19,6 +19,9 @@ public class Alimento extends ItemDeLoja {
 		this.selo = selo;
 	}
 	
+	/**
+	 * return o selo
+	 */
 	@Override
 	public int getIdentificador() {
 		return this.getSelo();

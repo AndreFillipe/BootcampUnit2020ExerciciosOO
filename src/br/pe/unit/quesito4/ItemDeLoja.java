@@ -45,7 +45,10 @@ public class ItemDeLoja {
 	public void setValorDoItem(double valorDoItem) {
 		this.valorDoItem = valorDoItem;
 	}
-
+	/**
+	 * 
+	 * @return o codigo do item
+	 */
 	public int getIdentificador() {
 		return this.getCodigoDoItem();
 	}

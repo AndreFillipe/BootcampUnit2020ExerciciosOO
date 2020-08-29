@@ -27,6 +27,9 @@ public class Terrestre extends MeioDeTransporte {
 		this.potencia = potencia;
 	}
 
+	/**
+	 * return a potência do motor X carga máxima (kg) X 100
+	 */
 	@Override
 	public double consumo() {
 		return this.potencia * super.getCarga_maxima() * 100;

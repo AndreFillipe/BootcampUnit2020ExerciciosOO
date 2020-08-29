@@ -47,6 +47,10 @@ public class Produto {
 	public void setValidade(Date validade) {
 		this.validade = validade;
 	}
+	/**
+	 * 
+	 * @return o id
+	 */
 	public Integer getCod() {
 		return this.getId();
 	}

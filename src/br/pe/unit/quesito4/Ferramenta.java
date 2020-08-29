@@ -28,15 +28,25 @@ public class Ferramenta extends ItemDeLoja {
 		this.serial = serial;
 	}
 
+	/**
+	 * return o serial
+	 */
 	@Override
 	public int getIdentificador() {
 		return this.getSerial();
 	}
 
+	/**
+	 * Registra a categoria "padrão"
+	 */
 	public void separar() {
 		setCategoria("Outros");
 	}
 
+	/**
+	 * Registra a categoria com o valor passado
+	 * @param valor
+	 */
 	public void separar(String valor) {
 		setCategoria(valor);
 	}
