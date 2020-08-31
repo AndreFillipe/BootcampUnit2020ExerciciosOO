@@ -3,6 +3,8 @@
  */
 package br.pe.unit.quesito11;
 
+import java.util.ArrayList;
+
 /**
  * @author Andre
  *
@@ -12,14 +14,14 @@ public class Eleitor extends Pessoa {
 	private String endereco;
 	private int eleitorID;
 	private ZonaEleitoral zona;
-	private Votar voto;
+	private ArrayList<Votar> votos;
 
-	public Votar getVoto() {
-		return voto;
+	public ArrayList<Votar> getVoto() {
+		return this.votos;
 	}
 
-	public void setVoto(Votar voto) {
-		this.voto = voto;
+	public void setVoto(ArrayList<Votar> votos) {
+		this.votos = votos;
 	}
 
 	public String getEndereco() {

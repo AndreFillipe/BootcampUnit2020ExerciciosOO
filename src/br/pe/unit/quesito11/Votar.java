@@ -3,7 +3,6 @@
  */
 package br.pe.unit.quesito11;
 
-import java.util.ArrayList;
 import java.util.Calendar;
 
 /**
@@ -16,16 +15,16 @@ public class Votar {
 	private int eleitorId;
 	private Calendar data;
 	private String cargoCandidato;
-	private ArrayList<Eleitor> eleitores;
+	private Eleitor eleitor;
 	private Candidato candidato;
 	private ServidorVotos servidorVotos;
 
-	public ArrayList<Eleitor> getEleitores() {
-		return eleitores;
+	public Eleitor getEleitor() {
+		return this.eleitor;
 	}
 
-	public void setEleitores(ArrayList<Eleitor> eleitores) {
-		this.eleitores = eleitores;
+	public void setEleitor(Eleitor eleitor) {
+		this.eleitor = eleitor;
 	}
 
 	public int getCandidatoId() {
